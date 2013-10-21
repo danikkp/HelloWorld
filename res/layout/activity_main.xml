@@ -20,15 +20,6 @@
         android:text="@string/Red" />
 
     <Button
-        android:id="@+id/butGreen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="150dp"
-        android:onClick="but_Click"
-        android:text="@string/Green" />
-
-    <Button
         android:id="@+id/butRed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,5 +38,15 @@
         android:layout_marginTop="14dp"
         android:onClick="but_Click"
         android:text="@string/Yellow" />
+
+    <Button
+        android:id="@+id/butGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butYellow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:onClick="but_Click"
+        android:text="@string/Green" />
 
 </RelativeLayout>
